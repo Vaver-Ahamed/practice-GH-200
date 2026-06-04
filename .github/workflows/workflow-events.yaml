@@ -1,14 +1,14 @@
 name: workflow-events
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  #push:
+   # branches:
+    #  - main
+  #pull_request:
+   # branches:
+    #  - main
   workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
+  #schedule:
+  #  - cron: '*/5 * * * *'
     # khbhbkbk
 jobs: 
   echo:
