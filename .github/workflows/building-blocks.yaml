@@ -1,7 +1,7 @@
 name: building blocks
 on:
   - push
-  - workflow_dospatch
+  - workflow_dispatch
 jobs:
   hello:
     runs-on: ubuntu-latest
